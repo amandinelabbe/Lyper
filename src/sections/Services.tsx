@@ -1,4 +1,6 @@
-import React from "react";
+"use client";
+import React, { useContext } from "react";
+import { LanguageContext } from "../app/layout";
 import { FaLaptopCode, FaSyncAlt } from "react-icons/fa";
 
 const SERVICES = [
@@ -23,10 +25,56 @@ const SERVICES = [
 ];
 
 export default function Services() {
+  const { lang } = useContext(LanguageContext);
+  const sectionTitle = lang === "fr" ? "Services" : "Services";
+  const sectionDesc = lang === "fr"
+    ? "Chaque besoin à sa solution. Définissons la vôtre. Découvrez les services proposés."
+    : "Every need has its solution. Let's define yours. Discover the services offered.";
+  const SERVICES = lang === "fr"
+    ? [
+        {
+          icon: <FaLaptopCode className="text-3xl text-violet-500" />,
+          title: "Création de Sites Vitrine Sur Mesure",
+          description:
+            "Sites web élégants, performants et adaptés à votre marque, avec design personnalisé, responsive et SEO de base.",
+        },
+        {
+          icon: <FaSyncAlt className="text-3xl text-blue-400" />,
+          title: "Modernisation et Refonte de Sites Existants",
+          description:
+            "Refonte visuelle, optimisation des performances et sécurité renforcée pour donner une nouvelle vie à votre site.",
+        },
+        {
+          icon: <FaLaptopCode className="text-3xl text-violet-500" />,
+          title: "Maintenance, Suivi et Correction du site web",
+          description:
+            "Suivi, corrections de bugs, mises à jour régulières et support technique pour garantir la fiabilité et la sécurité de votre site.",
+        },
+      ]
+    : [
+        {
+          icon: <FaLaptopCode className="text-3xl text-violet-500" />,
+          title: "Custom Showcase Website Creation",
+          description:
+            "Elegant, high-performance websites tailored to your brand, with custom design, responsive layout, and basic SEO.",
+        },
+        {
+          icon: <FaSyncAlt className="text-3xl text-blue-400" />,
+          title: "Modernization and Redesign of Existing Sites",
+          description:
+            "Visual redesign, performance optimization, and enhanced security to give your site a new life.",
+        },
+        {
+          icon: <FaLaptopCode className="text-3xl text-violet-500" />,
+          title: "Website Maintenance, Monitoring & Fixes",
+          description:
+            "Monitoring, bug fixes, regular updates, and technical support to ensure your site's reliability and security.",
+        },
+      ];
   return (
-  <section id="services" className="py-32 scroll-mt-32">
-  <h2 className="text-4xl font-extrabold text-gray-100 mb-12 text-center">Services</h2>
-  <p className="text-center text-gray-300 text-2xl mb-16 mt-8">Chaque besoin à sa solution. Définissons la vôtre. Découvrez les services proposés.</p>
+    <section id="services" className="py-32 scroll-mt-32">
+      <h2 className="text-4xl font-extrabold text-gray-100 mb-12 text-center">{sectionTitle}</h2>
+      <p className="text-center text-gray-300 text-2xl mb-16 mt-8">{sectionDesc}</p>
       <div className="flex flex-col sm:flex-row gap-8 justify-center items-center">
         {SERVICES.map((service) => (
           <div

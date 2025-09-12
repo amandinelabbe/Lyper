@@ -1,11 +1,22 @@
-import React from "react";
+"use client";
+import React, { useContext } from "react";
+import { LanguageContext } from "../app/layout";
 
 export default function Contact() {
+  const { lang } = useContext(LanguageContext);
+  const sectionTitle = lang === "fr" ? "Contact" : "Contact";
+  const sectionDesc = lang === "fr"
+    ? "Vous souhaitez discuter d'un projet ou obtenir un devis ? N'hésitez pas à me contacter !"
+    : "Want to discuss a project or get a quote? Feel free to contact me!";
+  const namePlaceholder = lang === "fr" ? "Votre nom" : "Your name";
+  const emailPlaceholder = lang === "fr" ? "Votre e-mail" : "Your email";
+  const messagePlaceholder = lang === "fr" ? "Votre message" : "Your message";
+  const sendLabel = lang === "fr" ? "Envoyer" : "Send";
   return (
-  <section id="contact" className="py-32 flex flex-col items-center justify-center text-center scroll-mt-32">
-  <h2 className="text-5xl font-extrabold text-gray-100 mb-6">Contact</h2>
-  <p className="text-gray-300 mb-4 max-w-xl text-2xl">
-        Vous souhaitez discuter d'un projet ou obtenir un devis ? N'hésitez pas à me contacter !
+    <section id="contact" className="py-32 flex flex-col items-center justify-center text-center scroll-mt-32">
+      <h2 className="text-5xl font-extrabold text-gray-100 mb-6">{sectionTitle}</h2>
+      <p className="text-gray-300 mb-4 max-w-xl text-2xl">
+        {sectionDesc}
       </p>
       <a
         href="mailto:contact.lyper.fr"
@@ -17,20 +28,20 @@ export default function Contact() {
         <input
           type="text"
           name="name"
-          placeholder="Votre nom"
+          placeholder={namePlaceholder}
           className="bg-gray-800 text-gray-200 p-3 rounded focus:outline-none focus:ring-2 focus:ring-violet-500"
           required
         />
         <input
           type="email"
           name="email"
-          placeholder="Votre e-mail"
+          placeholder={emailPlaceholder}
           className="bg-gray-800 text-gray-200 p-3 rounded focus:outline-none focus:ring-2 focus:ring-violet-500"
           required
         />
         <textarea
           name="message"
-          placeholder="Votre message"
+          placeholder={messagePlaceholder}
           className="bg-gray-800 text-gray-200 p-3 rounded focus:outline-none focus:ring-2 focus:ring-violet-500"
           rows={4}
           required
@@ -39,7 +50,7 @@ export default function Contact() {
           type="submit"
           className="bg-violet-600 text-white py-3 rounded font-semibold hover:bg-violet-700 transition-colors duration-300"
         >
-          Envoyer
+          {sendLabel}
         </button>
       </form>
     </section>

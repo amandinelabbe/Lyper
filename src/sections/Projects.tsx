@@ -1,4 +1,6 @@
-import React from "react";
+"use client";
+import React, { useContext } from "react";
+import { LanguageContext } from "../app/layout";
 
 const PROJECTS = [
   {
@@ -22,11 +24,57 @@ const PROJECTS = [
 ];
 
 export default function Projects() {
+  const { lang } = useContext(LanguageContext);
+  const sectionTitle = lang === "fr" ? "Projets" : "Projects";
+  const sectionDesc = lang === "fr"
+    ? "Ils m'ont fait confiance. Voici le résultat."
+    : "They trusted me. Here is the result.";
+  const PROJECTS = lang === "fr"
+    ? [
+        {
+          image: "/project1.jpg",
+          title: "Portfolio Photographe",
+          description: "Site vitrine moderne pour un photographe professionnel.",
+          link: "https://portfolio-photographe.fr",
+        },
+        {
+          image: "/project2.jpg",
+          title: "Agence Digitale",
+          description: "Refonte complète d'un site d'agence web.",
+          link: "https://agence-digitale.fr",
+        },
+        {
+          image: "/project3.jpg",
+          title: "Boutique en Ligne",
+          description: "Création d'une boutique e-commerce performante.",
+          link: "https://boutique-en-ligne.fr",
+        },
+      ]
+    : [
+        {
+          image: "/project1.jpg",
+          title: "Photographer Portfolio",
+          description: "Modern showcase website for a professional photographer.",
+          link: "https://portfolio-photographe.fr",
+        },
+        {
+          image: "/project2.jpg",
+          title: "Digital Agency",
+          description: "Complete redesign of a web agency site.",
+          link: "https://agence-digitale.fr",
+        },
+        {
+          image: "/project3.jpg",
+          title: "Online Store",
+          description: "Creation of a high-performance e-commerce store.",
+          link: "https://boutique-en-ligne.fr",
+        },
+      ];
   return (
-  <section id="projects" className="py-32 scroll-mt-32">
-  <h2 className="text-4xl font-extrabold text-gray-100 mb-12 text-center">Projets</h2>
-  <p className="text-center text-gray-300 text-2xl mb-16 mt-8">Ils m'ont fait confiance. Voici le résultat.</p>
-  <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 justify-items-center items-center">
+    <section id="projects" className="py-32 scroll-mt-32">
+      <h2 className="text-4xl font-extrabold text-gray-100 mb-12 text-center">{sectionTitle}</h2>
+      <p className="text-center text-gray-300 text-2xl mb-16 mt-8">{sectionDesc}</p>
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 justify-items-center items-center">
         {PROJECTS.map((project) => (
           <a
             key={project.title}
@@ -47,7 +95,7 @@ export default function Projects() {
                 {project.title}
               </h3>
               <p className="text-gray-300 mb-4">{project.description}</p>
-              <span className="text-blue-400 group-hover:underline">Voir le site →</span>
+              <span className="text-blue-400 group-hover:underline">{lang === "fr" ? "Voir le site →" : "View site →"}</span>
             </div>
           </a>
         ))}
