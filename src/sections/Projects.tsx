@@ -4,10 +4,10 @@ import { LanguageContext } from "../app/layout";
 
 const PROJECTS = [
   {
-    image: "/project1.jpg", // Placeholder, replace with real image
-    title: "Portfolio Photographe",
-    description: "Site vitrine moderne pour un photographe professionnel.",
-    link: "https://portfolio-photographe.fr",
+    image: "/logo_sapion.png",
+    title: "Site Web SAP Cloud Solutions",
+    description: "Site vitrine moderne pour un fournisseur de solutions SAP.",
+    link: "https://sapion.netlify.app/",
   },
   {
     image: "/project2.jpg",
@@ -32,13 +32,13 @@ export default function Projects() {
   const PROJECTS = lang === "fr"
     ? [
         {
-          image: "/project1.jpg",
-          title: "Portfolio Photographe",
-          description: "Site vitrine moderne pour un photographe professionnel.",
-          link: "https://portfolio-photographe.fr",
-        },
+          image: "/logo_sapion.png",
+          title: "Site Web SAP Cloud Solutions",
+          description: "Site vitrine moderne pour un fournisseur de solutions SAP.",
+          link: "https://sapion.netlify.app/",
+      },
         {
-          image: "/project2.jpg",
+          image: "/public/logo_agence_digitale.png",
           title: "Agence Digitale",
           description: "Refonte complète d'un site d'agence web.",
           link: "https://agence-digitale.fr",
@@ -52,10 +52,10 @@ export default function Projects() {
       ]
     : [
         {
-          image: "/project1.jpg",
-          title: "Photographer Portfolio",
-          description: "Modern showcase website for a professional photographer.",
-          link: "https://portfolio-photographe.fr",
+        image: "/logo_sapion.png",
+        title: "Site Web SAP Cloud Solutions",
+        description: "Site vitrine moderne pour un fournisseur de solutions SAP.",
+        link: "https://sapion.netlify.app/",
         },
         {
           image: "/project2.jpg",
