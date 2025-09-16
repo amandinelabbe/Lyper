@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Lyper – Portfolio Next.js
 
-First, run the development server:
+## 👩‍💻 Qui suis-je ?
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Je suis Amandine, développeuse web passionnée spécialisée dans la création d’expériences digitales modernes, élégantes et performantes. J’accompagne les entrepreneurs, freelances et entreprises dans la réalisation ou la refonte de leur site web, avec une attention particulière portée au design, à l’animation et à l’accessibilité.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Lyper est un aperçu de site web moderne, dynamique et responsive, conçu pour présenter mes services de création et refonte de sites web. Il met en avant mon expertise frontend, mes projets réalisés et mes compétences techniques.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ✨ Aperçu
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Design dark moderne (noir, anthracite, violet, accents électriques)
+- Animations fluides (hover, scroll, transitions)
+- Fond animé subtil (particules/stars)
+- Navigation fluide avec menu hamburger sur mobile
+- Sections : Accueil, Services, Projets, Compétences, Contact, Footer
+- Responsive (mobile, tablette, desktop)
 
-## Learn More
+## 📱 Responsive & Accessibilité
 
-To learn more about Next.js, take a look at the following resources:
+- Menu hamburger sur mobile/tablette
+- Navigation clavier et focus visibles
+- Contrastes élevés pour la lisibilité
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📦 Déploiement & Référencement
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Déploie Vercel, Netlify ou tout hébergeur Next.js
+- Nom de domaine inclus
+- SEO de base pour un meilleur référencement
 
-## Deploy on Vercel
+## 📧 Contact
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Pour toute question ou collaboration : [contact.lyper.fr](mailto:contact.lyper.fr)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+© 2025 Lyper – Création de sites web modernes. Tous droits réservés.
