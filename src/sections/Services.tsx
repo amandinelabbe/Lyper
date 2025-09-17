@@ -5,19 +5,19 @@ import { FaLaptopCode, FaSyncAlt } from "react-icons/fa";
 
 const SERVICES = [
   {
-    icon: <FaLaptopCode className="text-3xl text-violet-500" />,
+    icon: <FaLaptopCode className="text-3xl text-white-500" />,
     title: "Création de Sites Vitrine Sur Mesure",
     description:
       "Sites web élégants, performants et adaptés à votre marque, avec design personnalisé, responsive et SEO de base.",
   },
   {
-    icon: <FaSyncAlt className="text-3xl text-blue-400" />,
+    icon: <FaSyncAlt className="text-3xl text-white-400" />,
     title: "Modernisation et Refonte de Sites Existants",
     description:
       "Refonte visuelle, optimisation des performances et sécurité renforcée pour donner une nouvelle vie à votre site.",
   },
   {
-    icon: <FaLaptopCode className="text-3xl text-violet-500" />,
+    icon: <FaLaptopCode className="text-3xl text-white-500" />,
     title: "Maintenance, Suivi et Correction du site web",
     description:
       "Suivi, corrections de bugs, mises à jour régulières et support technique pour garantir la fiabilité et la sécurité de votre site.",
@@ -33,19 +33,19 @@ export default function Services() {
   const SERVICES = lang === "fr"
     ? [
         {
-          icon: <FaLaptopCode className="text-3xl text-violet-500" />,
+          icon: <FaLaptopCode className="text-3xl text-white-500" />,
           title: "Création de Sites Vitrine Sur Mesure",
           description:
             "Sites web élégants, performants et adaptés à votre marque, avec design personnalisé, responsive et SEO de base.",
         },
         {
-          icon: <FaSyncAlt className="text-3xl text-blue-400" />,
+          icon: <FaSyncAlt className="text-3xl text-white-400" />,
           title: "Modernisation et Refonte de Sites Existants",
           description:
             "Refonte visuelle, optimisation des performances et sécurité renforcée pour donner une nouvelle vie à votre site.",
         },
         {
-          icon: <FaLaptopCode className="text-3xl text-violet-500" />,
+          icon: <FaLaptopCode className="text-3xl text-white-500" />,
           title: "Maintenance, Suivi et Correction du site web",
           description:
             "Suivi, corrections de bugs, mises à jour régulières et support technique pour garantir la fiabilité et la sécurité de votre site.",
@@ -53,19 +53,19 @@ export default function Services() {
       ]
     : [
         {
-          icon: <FaLaptopCode className="text-3xl text-violet-500" />,
+          icon: <FaLaptopCode className="text-3xl text-white-500" />,
           title: "Custom Showcase Website Creation",
           description:
             "Elegant, high-performance websites tailored to your brand, with custom design, responsive layout, and basic SEO.",
         },
         {
-          icon: <FaSyncAlt className="text-3xl text-blue-400" />,
+          icon: <FaSyncAlt className="text-3xl text-white-400" />,
           title: "Modernization and Redesign of Existing Sites",
           description:
             "Visual redesign, performance optimization, and enhanced security to give your site a new life.",
         },
         {
-          icon: <FaLaptopCode className="text-3xl text-violet-500" />,
+          icon: <FaLaptopCode className="text-3xl text-white-500" />,
           title: "Website Maintenance, Monitoring & Fixes",
           description:
             "Monitoring, bug fixes, regular updates, and technical support to ensure your site's reliability and security.",

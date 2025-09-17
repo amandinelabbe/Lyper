@@ -54,7 +54,7 @@ export default function Projects() {
         {
         image: "/logo_sapion.png",
         title: "Site Web SAP Cloud Solutions",
-        description: "Site vitrine moderne pour un fournisseur de solutions SAP.",
+        description: "Modern showcase site for a SAP solutions provider.",
         link: "https://sapion.netlify.app/",
         },
         {
