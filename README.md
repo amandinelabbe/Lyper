@@ -14,7 +14,7 @@ Lyper est un aperçu de site web moderne, dynamique et responsive, conçu pour p
 - Fond animé subtil (particules/stars)
 - Navigation fluide avec menu hamburger sur mobile
 - Sections : Accueil, Services, Projets, Compétences, Contact, Footer
-- Responsive (mobile, tablette, desktop)
+- Responsive (mobile, tablette, desktop)git commit -m "Initial commit"
 
 ## 📱 Responsive & Accessibilité
 
