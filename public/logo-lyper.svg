@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+  <defs>
+    <linearGradient id="lyper-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#a855f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c084fc;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Logo Background Circle -->
+  <circle cx="30" cy="30" r="25" fill="url(#lyper-gradient)" opacity="0.1"/>
+  
+  <!-- Logo Symbol -->
+  <path d="M 20 15 L 20 45 L 25 45 L 25 40 L 35 40 L 40 35 L 40 20 L 35 15 Z M 25 20 L 35 20 L 35 35 L 25 35 Z" 
+        fill="url(#lyper-gradient)" stroke="none"/>
+  
+  <!-- Text "Lyper" -->
+  <text x="65" y="40" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="url(#lyper-gradient)">
+    Lyper
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="65" y="52" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">
+    Web Development
+  </text>
+</svg>

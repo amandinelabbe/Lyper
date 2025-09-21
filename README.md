@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Portfolio Lyper - Créatrice de Sites Web Modernes
 
-## Getting Started
+<div align="center">
+  <img src="public/logo-lyper.svg" alt="Lyper Logo" width="200"/>
+  
+  ![Next.js](https://img.shields.io/badge/Next.js-15.5.3-black?style=for-the-badge&logo=next.js)
+  ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)
+  ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.0-38B2AC?style=for-the-badge&logo=tailwind-css)
+  ![React](https://img.shields.io/badge/React-18.0-61DAFB?style=for-the-badge&logo=react)
+</div>
 
-First, run the development server:
+## ✨ À propos
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Portfolio moderne et interactif de **Lyper**, développeuse frontend passionnée spécialisée dans la création de sites web sur mesure. Ce site vitrine présente mes services, réalisations et compétences avec une interface élégante et des animations fluides.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🎯 Objectifs du projet
+- Présenter mes services de développement web
+- Showcaser mes réalisations récentes
+- Faciliter la prise de contact avec les clients
+- Démontrer mes compétences techniques
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🌟 Fonctionnalités
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🎨 Design & UX
+- **Interface moderne** avec thème sombre et accents violets
+- **Animations fluides** avec transitions CSS avancées
+- **Design responsive** adaptatif mobile/tablet/desktop
+- **Navigation fluide** avec smooth scroll entre sections
 
-## Learn More
+### 🔄 Interactivité
+- **Cartes flip 3D** dans la section Services avec descriptions détaillées
+- **Système de traduction** FR/EN avec contexte React
+- **Effets hover** sur tous les éléments interactifs
+- **Formulaire de contact** avec envoi d'email direct
 
-To learn more about Next.js, take a look at the following resources:
+### 📧 Contact
+- **EmailJS intégré** pour envoi direct (optionnel)
+- **Fallback mailto** si EmailJS non configuré
+- **Validation des champs** en temps réel
+- **Feedback visuel** (loading, succès, erreur)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Technologies utilisées
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Frontend
+- **Next.js 15.5.3** - Framework React avec App Router
+- **TypeScript** - Typage statique pour plus de robustesse
+- **Tailwind CSS** - Framework CSS utility-first
+- **React Context** - Gestion d'état pour les traductions
 
-## Deploy on Vercel
+### Bibliothèques
+- **react-icons** - Icônes modernes et variées
+- **@emailjs/browser** - Envoi d'emails côté client
+- **React Hooks** - useState, useContext pour la logique
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Outils
+- **ESLint** - Linting et qualité de code
+- **Git** - Contrôle de version
+- **Vercel** - Déploiement et hébergement
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📈 Réalisations showcasées
+
+- **[Sapion](https://sapion.vercel.app/)** - Site vitrine moderne pour une entreprise de services
+- **[Portfolio Photographe](https://photography-livid.vercel.app/)** - Portfolio créatif pour un photographe professionnel  
+- **[Securicam](https://securicam.vercel.app/)** - Plateforme de sécurité et surveillance
+
+## 📄 Licence
+
+Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
+
+## 📞 Contact
+
+- **Email** : contact@lyper.fr
+- **Site web** : [lyper.fr](https://lyper.fr)
+- **GitHub** : [@lyper](https://github.com/lyper)
+
+---
+
+<div align="center">
+  <p>⭐ Si ce projet vous plaît, n'hésitez pas à lui donner une étoile !</p>
+  <p>🚀 Développé avec ❤️ par Lyper</p>
+</div>

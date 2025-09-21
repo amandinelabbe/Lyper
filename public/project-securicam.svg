@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="securicam-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#059669;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0284c7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#securicam-gradient)"/>
+  
+  <!-- Security Camera -->
+  <rect x="170" y="90" width="60" height="30" rx="5" fill="#ffffff" opacity="0.9"/>
+  <rect x="175" y="95" width="50" height="20" rx="3" fill="#374151"/>
+  <circle cx="200" cy="105" r="8" fill="#ef4444"/>
+  <rect x="230" y="100" width="20" height="10" rx="5" fill="#ffffff" opacity="0.9"/>
+  
+  <!-- Shield icon -->
+  <path d="M 130 130 L 140 120 L 160 120 L 170 130 L 170 160 L 150 180 L 130 160 Z" 
+        fill="#ffffff" opacity="0.8"/>
+  <path d="M 135 135 L 145 125 L 155 125 L 165 135 L 165 155 L 150 170 L 135 155 Z" 
+        fill="#10b981"/>
+  <path d="M 145 140 L 150 145 L 160 130" stroke="#ffffff" stroke-width="2" fill="none"/>
+  
+  <!-- Monitor/Dashboard -->
+  <rect x="220" y="140" width="80" height="50" fill="#ffffff" opacity="0.9"/>
+  <rect x="225" y="145" width="70" height="35" fill="#111827"/>
+  <rect x="230" y="150" width="60" height="3" fill="#10b981"/>
+  <rect x="230" y="160" width="40" height="3" fill="#f59e0b"/>
+  <rect x="230" y="170" width="50" height="3" fill="#ef4444"/>
+  
+  <!-- Network dots -->
+  <circle cx="120" cy="200" r="3" fill="#ffffff" opacity="0.6"/>
+  <circle cx="140" cy="210" r="3" fill="#ffffff" opacity="0.6"/>
+  <circle cx="160" cy="205" r="3" fill="#ffffff" opacity="0.6"/>
+  <circle cx="280" cy="200" r="3" fill="#ffffff" opacity="0.6"/>
+  
+  <!-- Connection lines -->
+  <line x1="120" y1="200" x2="140" y2="210" stroke="#ffffff" stroke-width="1" opacity="0.4"/>
+  <line x1="140" y1="210" x2="160" y2="205" stroke="#ffffff" stroke-width="1" opacity="0.4"/>
+  <line x1="160" y1="205" x2="280" y2="200" stroke="#ffffff" stroke-width="1" opacity="0.4"/>
+  
+  <!-- Project title -->
+  <text x="200" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff">
+    SECURICAM
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="200" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" opacity="0.8">
+    Sécurité & Surveillance
+  </text>
+</svg>
