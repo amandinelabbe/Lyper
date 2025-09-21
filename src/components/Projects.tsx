@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Image from 'next/image';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { FaExternalLinkAlt } from 'react-icons/fa';
 
@@ -60,9 +61,11 @@ const Projects: React.FC = () => {
               {/* Project Image */}
               <div className="relative h-48 bg-gradient-to-br overflow-hidden bg-gray-800">
                 <div className="absolute inset-0 flex items-center justify-center p-4">
-                  <img 
+                  <Image 
                     src={project.image} 
                     alt={project.title}
+                    width={300}
+                    height={192}
                     className="max-w-full max-h-full object-contain rounded-lg"
                   />
                 </div>

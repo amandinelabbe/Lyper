@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import Image from 'next/image';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { FaGlobe, FaBars, FaTimes } from 'react-icons/fa';
 
@@ -30,9 +31,11 @@ const Header: React.FC = () => {
               onClick={() => scrollToSection('home')}
               className="flex items-center space-x-2 text-2xl font-bold text-violet-400 hover:text-violet-300 transition-colors duration-300"
             >
-              <img 
+              <Image 
                 src="/logo_lyper_without_bg.png" 
                 alt="Lyper Logo" 
+                width={32}
+                height={32}
                 className="h-8 w-auto"
               />
             </button>

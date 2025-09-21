@@ -224,7 +224,7 @@ ${formData.message}
               )}
               {submitStatus === 'error' && (
                 <p className="mt-3 text-center text-red-400 text-sm">
-                  ❌ Erreur lors de l'envoi. Vous pouvez aussi nous contacter directement à contact@lyper.fr
+                  ❌ Erreur lors de l&apos;envoi. Vous pouvez aussi nous contacter directement à contact@lyper.fr
                 </p>
               )}
             </div>
